@@ -1,0 +1,37 @@
+{
+  "name": "cra-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@alfsnd/vue-bootstrap-select": "^0.4.4",
+    "@vueform/multiselect": "^2.6.2",
+    "axios": "^1.3.4",
+    "boosted": "^5.2.3",
+    "bootstrap": "^5.2.3",
+    "bootstrap-select": "^1.13.18",
+    "bootstrap-vue": "^2.23.1",
+    "datatables.net-dt": "^1.13.4",
+    "jquery": "^3.7.0",
+    "vue": "^3.2.47",
+    "vue-multiselect": "^3.0.0-beta.1",
+    "vue-multiselect-bootstrap-theme": "^1.0.7",
+    "vue-router": "^4.1.6",
+    "vue-select": "^4.0.0-beta.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "vite": "^4.1.4"
+  }
+}
